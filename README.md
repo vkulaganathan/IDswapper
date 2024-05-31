@@ -4,6 +4,9 @@ Convert given gene IDs to various other IDs.
 **Usage**
 <br>``$ IDswapper --infile test.tsv --id-column-index 0 --fetch "xx" "xx" "xx" --outfile append_test.tsv``</br>
 
+For large files that are gzip compressed
+<br>``$ IDswapper --infile test.tsv.gz --id-column-index 0 --fetch "xx" "xx" "xx" --outfile append_test.tsv.gz``</br>
+
 **Fetch Table**
 Please use these options for the ``--fetch `` argument
 | Fetch Argument | Columns to be appended |
