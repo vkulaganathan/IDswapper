@@ -60,3 +60,8 @@ The ``--id-column-index`` allows query by picking any column in large files with
 
 **INSTALLATION**
 <br>`` $ pip install IDswapper ``</br>
+<br> Create the local database</br>
+``$ python setup_db.py``
+
+<br> requires ``mysql`` up and running </br>
+<br> you can check using ``$ systemctl mysql status``</br>
