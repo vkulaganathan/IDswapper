@@ -1,0 +1,7 @@
+PyMySQL==1.1.1
+tqdm==4.66.4
+pandas
+mysql-connector-python
+gzip
+json
+argparse
