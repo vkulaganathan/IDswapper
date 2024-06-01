@@ -2,32 +2,31 @@
 Convert given gene IDs to various other IDs. (under development, please come back later)
 
 **Usage**
-<br>``$ IDswapper --infile test.tsv --id-column-index 0 --fetch "xx" "xx" "xx" --outfile append_test.tsv``</br>
+<br>``$ IDswapper --infile test.tsv --id-column-index 0 --fetch "25" "5" "10" --outfile append_test.tsv``</br>
 
 For large files that are gzip compressed
-<br>``$ IDswapper --infile test.tsv.gz --id-column-index 0 --fetch "xx" "xx" "xx" --outfile append_test.tsv.gz``</br>
+<br>``$ IDswapper --infile test.tsv.gz --id-column-index 0 --fetch "25" "5" "10" --outfile append_test.tsv.gz``</br>
 
 **Fetch Table**
 Please use these options for the ``--fetch `` argument
 | Fetch Argument | Columns to be appended |
 |---|---|
-| xx | Ensembl Transcript ID |
-| xx | Ensembl Protein ID |
-| xx | HGNC ID |
-| xx | Gene Symbol |
-| xx | Gene Description |
-| xx | Chromosome Location |
-| xx | Gene Aliases |
-| xx | Entrez Gene ID |
-| xx | Ensembl Gene ID |
-| xx | VEGA ID |
-| xx | UCSC ID |
-| xx | Refseq Accession |
-| xx | Uniprot ID |
-| xx | Pubmed ID |
-| xx | COSMIC Entry |
-| xx | OMIM ID |
-| xx | Orphanet ID |
-| xx | CD Name |
-| xx | RNA Central ID |
-| xx | MANE Select ID |
+| 2 | Ensembl Transcript ID |
+| 3 | Ensembl Protein ID |
+| 4 | HGNC ID |
+| 5 | Gene Symbol |
+| 6 | Gene Description |
+| 10 | Chromosome Location |
+| 12 | Gene Aliases |
+| 18 | Entrez Gene ID |
+| 19 | Ensembl Gene ID |
+| 20 | VEGA ID |
+| 21 | UCSC ID |
+| 23 | Refseq Accession |
+| 25 | Uniprot ID |
+| 30 | COSMIC Entry |
+| 31 | OMIM ID |
+| 36 | Orphanet ID |
+| 43 | CD Name |
+| 47 | RNA Central ID |
+| 51 | MANE Select ID |
