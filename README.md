@@ -50,7 +50,7 @@ The ``--id-column-index`` allows query by picking any column in large files with
 <br>``$ IDswapper --infile test.txt --id-column-index 0 --fetch "25" "5" "10" --outfile append_test.txt``</br>
 
 <br>3. Output file </br>
-| Fetch Argument | Uniprot ID | Gene Symbol | Chromosome Location |
+| Entries | Uniprot ID | Gene Symbol | Chromosome Location |
 |---|---|---|---|
 | ENSG00000075624 | P60709 | ACTB | 7p22.1 |
 | ENSG00000146648 | P00533 | EGFR | 7p11.2 |
