@@ -1,5 +1,5 @@
 # IDswapper
-Convert given gene IDs to various other IDs. (under development, please come back later)
+Convert given gene IDs to various other IDs. 
 
 **Usage**
 <br>``$ IDswapper --infile test.txt --id-column-index 0 --fetch "25" "5" "10" --outfile append_test.txt  ``</br>
